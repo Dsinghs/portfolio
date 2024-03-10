@@ -277,7 +277,7 @@ body {
 }
 
 
- 
+
 .ds-heading-block .ds-title-block .text:hover:before {
     left: 0px;
     -webkit-transition-delay: 0.2s;
@@ -1033,7 +1033,7 @@ body {
     padding: 40px 0 0;
 }
 
-.ds-eduser-block .ds-eduser-item {  
+.ds-eduser-block .ds-eduser-item {
     position: relative;
     margin-bottom: 0px;
 }
@@ -1300,16 +1300,16 @@ body {
 
 .ds-services-block .ds-skills-item:hover {
     animation: skilsszumps 2s linear infinite alternate;
-} 
+}
 
 @keyframes skilsszumps {
-0% {
-    transform: translateY(0);
-}
+    0% {
+        transform: translateY(0);
+    }
 
-100% {
-    transform: translateY(-20px);
-}
+    100% {
+        transform: translateY(-20px);
+    }
 }
 
 
@@ -1361,29 +1361,29 @@ body {
 
 
 .ds-portfolio-block {
-    position: relative; 
+    position: relative;
     padding: 30px 0;
 }
 
 .ds-portfolio-block .ds-skills-block {
-display: flex;
-align-items: center;
-justify-content: flex-start;
-flex-wrap: wrap;
-gap: 1.5rem;
-transition-property: opacity, transform;
-transition-duration: 1.2s;
-transition-timing-function: cubic-bezier(.455, .03, .515, .955);
-transition-delay: 0;
-transform: translateZ(0);
-margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    transition-property: opacity, transform;
+    transition-duration: 1.2s;
+    transition-timing-function: cubic-bezier(.455, .03, .515, .955);
+    transition-delay: 0;
+    transform: translateZ(0);
+    margin: 0;
 }
 
 .ds-portfolio-block .ds-skills-block .nav-item {
-list-style: none;
-padding: 0;
-position: relative;
-transition: 1.5s;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    transition: 1.5s;
 }
 
 .ds-portfolio-block .ds-skills-item {
@@ -1658,7 +1658,7 @@ transition: 1.5s;
     padding: 10px 0 10px;
 }
 
-.ds-contact-block .ds-contactinfo-block .ds-contactinfo-item  p {
+.ds-contact-block .ds-contactinfo-block .ds-contactinfo-item p {
     word-break: break-all;
     text-transform: capitalize;
     font-size: 14px;
@@ -1666,7 +1666,7 @@ transition: 1.5s;
     margin: 0;
 }
 
-.ds-contact-block .ds-contactinfo-block .ds-contactinfo-item  p a {
+.ds-contact-block .ds-contactinfo-block .ds-contactinfo-item p a {
     color: #323233;
     text-decoration: none !important;
 }
@@ -1702,6 +1702,548 @@ transition: 1.5s;
     height: 100%;
     border: 0;
 }
+
 /* -------------------------- ds-contact us css ----------------------  */
 
 
+
+
+/* Medium devices (tablets, less https://qcdev.mpcz.in:8080/loginthan 992px) */
+@media (max-width: 991.98px) {
+
+    .ds-home-block .ds-information-block .ds-stranger-block {
+        font-size: 20px;
+        padding: 10px 0 2px 16px;
+    }
+
+    .ds-home-block .ds-information-block .ds-userName {
+        font-size: 38px;
+    }
+
+    .ds-home-block .ds-information-block .ds-Designation {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .ds-home-block .ds-information-block h4 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .ds-portfolioBtn {
+        min-width: 120px;
+        font-size: 14px;
+        line-height: 38px;
+    }
+
+    .ds-home-block .ds-information-block .ds-bthGroup-block .ds-portfolioBtn {
+        margin-right: 6px;
+    }
+
+    .ds-bannesection-block .ds-center-logo img {
+        max-width: 240px;
+    }
+
+    .ds-bannesection-block {
+        width: 260px;
+        height: 260px;
+    }
+
+    .ds-bannesection-block .ds-icon-block {
+        width: 36px;
+        height: 36px;
+    }
+
+    .ds-bannesection-block .ds-icon-block img {
+        width: 18px;
+    }
+
+    .ds-bannesection-block .ds-icon-block:first-child {
+        left: 35%;
+        transform: translate(-35%, -35%);
+        -webkit-transform: translate(-35%, -35%);
+    }
+
+    .ds-bannesection-block .ds-icon-block:nth-child(2) {
+        top: 32%;
+        transform: translate(32%, -32%);
+        -webkit-transform: translate(32%, -32%);
+    }
+
+    .ds-bannesection-block .ds-icon-block:nth-child(3) {
+        left: 25%;
+        transform: translate(-25%, 25%);
+        -webkit-transform: translate(-25%, 25%);
+    }
+
+    .ds-bannesection-block .ds-icon-block:nth-child(4) {
+        left: 15%;
+        transform: translate(-15%, -15%);
+        -webkit-transform: translate(-15%, -15%);
+    }
+
+    .ds-bannercontainer-block {
+        overflow: hidden;
+    }
+
+    .ds-htmlTag-block span {
+        letter-spacing: 0.02px;
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .ds-home-block .ds-information-block {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+
+
+    .ds-heading-block .ds-title-block .text {
+        font-size: 18px;
+        padding: 2px 20px;
+    }
+
+    .ds-heading-block .ds-title-block .text:before {
+        left: 100%;
+        right: 0;
+        top: 0px;
+        bottom: -4px;
+    }
+
+    .ds-heading-block .ds-title-block .text:before,
+    .ds-heading-block .ds-title-block .text:after {
+        top: 10px;
+        bottom: 10px;
+    }
+
+    .ds-heading-block .ds-subtitle-block {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .ds-contact-block {
+        padding: 20px 0;
+    }
+
+    .ds-heading-block {
+        padding-bottom: 16px;
+    }
+
+    .ds-contact-block .ds-contactinfo-block .ds-contactinfo-item .ds-imgbox svg {
+        width: 20px;
+    }
+
+    .ds-contact-block .ds-contactinfo-block .ds-contactinfo-item .ds-imgbox {
+        margin-bottom: 5px;
+    }
+
+    .ds-contact-block .ds-contactinfo-block .ds-contactinfo-item .ds-contact-title {
+        font-size: 16px;
+        padding: 5px 0 5px;
+    }
+
+    .ds-contact-block .ds-contactinfo-block .ds-contactinfo-item p {
+        font-size: 12px;
+    }
+
+    .ds-mapaddress-block {
+        height: 280px;
+        margin: 8px 0;
+    }
+
+
+
+    .ds-portfolio-block {
+        padding: 10px 0;
+    }
+
+
+
+    .ds-portfolio-block .ds-skills-item {
+        max-width: 225px;
+    }
+
+    .ds-portfolio-block .ds-skills-item .ds-text {
+        font-size: 13px;
+        padding: 3px 4px;
+    }
+
+    .ds-portfolio-block .ds-skills-block {
+        gap: 0.5rem;
+    }
+
+    .ds-services-block {
+        padding: 10px 0;
+    }
+
+    .ds-services-block .ds-skills-item .ds-iconbox {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .ds-services-block .ds-skills-item .ds-iconbox img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .ds-services-block .ds-skills-item .ds-text {
+        letter-spacing: 0;
+        font-size: 14px;
+    }
+
+    .ds-services-block .ds-skills-block {
+        gap: 1rem;
+    }
+
+
+
+    .ds-aboutus-block .ds-abputtagline-block p {
+        letter-spacing: 0;
+        text-align: left;
+    }
+
+    .ds-aboutus-block .ds-abputtagline-block .user_name {
+        font-size: 14px;
+    }
+
+    .ds-aboutus-block .ds-abputtagline-block .cv_block {
+        font-size: 16px;
+        padding: 14px 30px;
+    }
+
+    .ds-aboutus-block .ds-aboutitem-block p {
+        margin: 0;
+    }
+
+    .ds-aboutpersonal-block {}
+
+    .ds-aboutpersonal-block .col-sm-6 {
+        width: 100%;
+    }
+
+    .ds-aboutus-block .ds-userProfile-block .ds-imgbox {
+        max-width: 100%;
+        padding: 4px;
+    }
+
+    .ds-aboutus-block .ds-signature-item {
+        font-size: 20px;
+    }
+
+    .ds-eduser-block .ds-eduser-item .ds-infos-item h4 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .ds-eduser-block .ds-eduser-item .ds-infos-item p {
+        margin: 0;
+    }
+
+    .ds-eduser-block .ds-eduser-item .ds-infos-item .ds-listinfo {
+        margin: 0;
+    }
+
+    .ds-eduser-block .ds-eduser-item .ds-infos-item {
+        padding: 8px;
+        margin: 0 0 15px;
+    }
+
+    .ds-eduser-block .ds-eduser-item .ds-infos-item .ds-listinfo .ds-listitem p {
+        font-size: 13px;
+    }
+
+    .ds-eduser-block .ds-eduser-item .ds-customheader-block h3 {
+        font-size: 14px;
+    }
+
+    .ds-eduser-block .ds-eduser-item .ds-customheader-block {
+        padding: 10px 4px;
+        padding-left: 30px;
+    }
+
+    .ds-eduser-block .ds-eduser-item .ds-customheader-block .ds-text-icon {
+        width: 22px;
+        height: 22px;
+        font-size: 10px;
+    }
+
+    .ds-eduser-block .ds-eduser-item .ds-customheader-block h6 {
+        font-size: 10px;
+    }
+
+    .ds-eduser-block .ds-eduser-item .ds-cinum span {
+        font-size: 16px;
+    }
+
+    .ds-workcompletion-block .ds-complition-item {
+        max-width: 140px;
+        height: 140px;
+        width: auto;
+        padding: 10px;
+    }
+
+    .ds-workcompletion-block .ds-complition-item .ds-counteritem {
+        font-size: 16px;
+    }
+
+    .ds-workcompletion-block .ds-complition-item .ds-counteritem .ds-counter {
+        font-size: 22px;
+    }
+
+    .ds-workcompletion-block .ds-complition-item p {
+        font-size: 11px;
+    }
+
+
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    .ds-header-block {
+        background: #fff;
+        box-shadow: 1px 4px 10px 1px rgb(44 48 81 / 20%);
+    }
+
+    .ds-header-block nav.navbar {
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none !important;
+    }
+
+    .ds-header-block nav.navbar .navbar-brand {
+        font-size: 18px;
+        padding: 16px 0px;
+    }
+
+    .navbar-toggler {
+        border-radius: 4px;
+        padding: 4px 5px;
+    }
+
+    .navbar-toggler .navbar-toggler-icon {
+        width: 1.2em;
+        height: 1.2em;
+    }
+
+    .ds-htmlTag-block span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .ds-htmlTag-block {
+        padding: 0;
+        display: none;
+    }
+
+    .ds-home-block .ds-information-block {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .ds-home-block .ds-information-block .ds-stranger-block {
+        font-size: 14px;
+        padding: 7px 0 2px 16px;
+    }
+
+    .ds-home-block .ds-information-block .ds-userName {
+        font-size: 30px;
+        margin: 10px 0 0;
+    }
+
+    .ds-home-block .ds-information-block .ds-Designation {
+        font-size: 14px;
+    }
+
+    .ds-portfolioBtn {
+        min-width: 100px;
+        width: 100%;
+    }
+
+    .ds-home-block .ds-information-block .ds-bthGroup-block {
+        display: block;
+    }
+
+
+
+    .ds-heading-block .ds-title-block .text {
+        line-height: 16px;
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .ds-heading-block .ds-title-block .text:before,
+    .ds-heading-block .ds-title-block .text:after {
+        background: transparent !important;
+    }
+
+    .ds-heading-block {
+        padding-bottom: 10px;
+    }
+
+    .ds-heading-block .ds-subtitle-block {
+        margin-bottom: 0;
+    }
+
+    .ds-aboutus-block .ds-abputtagline-block {
+        margin: 0px 0 0;
+    }
+
+    .ds-aboutus-block .ds-abputtagline-block p {
+        line-height: normal;
+    }
+
+    .ds-aboutus-block .ds-abputtagline-block .cv_block {
+        width: 100%;
+        margin: 30px 0 0;
+        display: block;
+        text-align: center;
+    }
+
+    body {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .ds-aboutus-block .ds-aboutitem-block p {
+        line-height: 24px;
+    }
+
+    .ds-aboutus-block .ds-aboutpersonal-block .ds-aboutpersonal-item {
+        padding: 0;
+    }
+
+    .ds-aboutus-block .ds-aboutpersonal-block .ds-aboutpersonal-item .nav-item .ds-label {
+        margin-right: 2px;
+        font-size: 13px;
+    }
+
+    .ds-aboutus-block .ds-aboutpersonal-block .ds-aboutpersonal-item .nav-item .ds-value {
+        font-size: 13px;
+    }
+
+    .ds-aboutus-block .ds-socialmedia .ds-socialmedia-item .nav-item {
+        padding: 0 5px;
+    }
+
+    .ds-aboutus-block .ds-socialmedia .ds-socialmedia-item .nav-item .ds-link {
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+    }
+
+    .ds-aboutus-block .ds-signature-item {
+        margin: 20px 0 0;
+    }
+
+    .ds-aboutus-block .ds-userProfile-block .ds-imgbox img {
+        height: auto;
+    }
+
+    .ds-eduser-block .ds-eduser-item .ds-cinum {
+        display: none;
+    }
+
+    .ds-eduser-block .ds-eduser-item .ds-customheader-block {
+        margin: 0 0 6px;
+    }
+
+    .ds-eduser-block .ds-eduser-item .ds-infos-item h4 {
+        font-size: 16px;
+    }
+
+
+
+
+    .ds-portfolio-block .ds-skills-item {
+        max-width: 100%;
+    }
+
+    .ds-porfolio-model {
+        width: 90%;
+        margin-top: 40px;
+        padding: 0;
+    }
+
+    .ds-porfolio-model .modal-content .modal-body {
+        padding: 4px;
+    }
+
+    .ds-porfolio-model .modal-content .ds-portfolio-item .ds-img-gallery {
+        height: auto;
+    }
+
+    .ds-porfolio-model .modal-content .ds-portfolio-item .ds-details-block {
+        padding: 10px 0 0px;
+    }
+
+    .ds-porfolio-model .modal-content .ds-portfolio-item .ds-details-block h2 {
+        font-size: 16px;
+    }
+
+    .ds-porfolio-model .modal-content .ds-portfolio-item .ds-details-block p {
+        line-height: 22px;
+    }
+
+    .ds-porfolio-model .modal-content .modal-header .btn-close {
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+        right: -14px;
+        top: -14px;
+        z-index: 999;
+    }
+
+    .ds-services-block .ds-skills-block {
+        gap: 0.5rem;
+    }
+
+    .ds-services-block .ds-skills-item .ds-iconbox {
+        width: 140px;
+        height: 140px;
+    }
+
+
+    .ds-aboutus-block .ds-abputtagline-block .cv_block {
+        margin: 10px 0 0;
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+
+    .ds-workcompletion-block .ds-complition-item {
+        margin: 10px auto;
+    }
+
+
+
+
+
+    .ds-header-block .container {
+        padding: 0;
+    }
+    
+    .ds-header-block nav.navbar .navbar-brand {
+        padding: 16px 8px;
+    }
+    
+    .navbar-toggler {
+        margin-right: 6px;
+    }
+    
+    .ds-header-block nav.navbar .navbar-nav .nav-link {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .ds-header-block nav.navbar .navbar-nav .nav-link i {
+        margin-right: 8px;
+    }
+
+
+}

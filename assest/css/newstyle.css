@@ -2223,7 +2223,27 @@ body {
 
 
 
-
+    .ds-header-block .container {
+        padding: 0;
+    }
+    
+    .ds-header-block nav.navbar .navbar-brand {
+        padding: 16px 8px;
+    }
+    
+    .navbar-toggler {
+        margin-right: 6px;
+    }
+    
+    .ds-header-block nav.navbar .navbar-nav .nav-link {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .ds-header-block nav.navbar .navbar-nav .nav-link i {
+        margin-right: 8px;
+    }
 
 
 }
